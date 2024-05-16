@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1B1B1B"
+    android:orientation="vertical"
+    tools:context=".Acceso">
+
+    <ImageButton
+        android:id="@+id/IMGBtnAcceso"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:backgroundTint="#1B1B1B"
+        android:contentDescription="volver"
+        app:srcCompat="@android:drawable/ic_menu_revert" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_weight="1"
+            tools:srcCompat="@drawable/icons8_entrada_50" />
+
+        <TextView
+            android:id="@+id/textView63"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/days_one"
+            android:text="ACCESO"
+            android:textColor="#FFFFFF"
+            android:textSize="34sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/textView64"
+        android:layout_width="322dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/days_one"
+        android:gravity="center"
+        android:text="¡¡¡¡BIENVENIDO!!! NOS ALEGRAMOS DE VERTE"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+</LinearLayout>

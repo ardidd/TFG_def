@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1B1B1B"
+    android:orientation="vertical"
+    tools:context=".InformacionCuenta">
+
+    <ImageButton
+        android:id="@+id/btnVolverInfo"
+        android:layout_width="77dp"
+        android:layout_height="77dp"
+        android:background="#1B1B1B"
+        android:contentDescription="volver"
+        android:src="@android:drawable/ic_menu_revert" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="15dp"
+            app:srcCompat="@drawable/icons8_more_info_30" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:fontFamily="@font/days_one"
+            android:gravity="center"
+            android:text="Información de cuenta"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/txtNombreCuenta"
+        android:layout_width="300dp"
+        android:layout_height="56dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:hint="Nombre"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/txtApellidosCuenta"
+        android:layout_width="300dp"
+        android:layout_height="56dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:hint="Apellidos"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/txtNumeroCuenta"
+        android:layout_width="300dp"
+        android:layout_height="56dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:hint="Número Contacto"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnGuardarCuenta"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="#FF9800"
+        android:text="GUARDAR"
+        android:textColor="#000000" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp"
+        android:background="#FF9800"
+        android:orientation="horizontal"></LinearLayout>
+</LinearLayout>

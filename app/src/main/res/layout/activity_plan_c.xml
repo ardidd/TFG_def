@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1B1B1B"
+    android:orientation="vertical"
+    tools:context=".PlanC">
+
+    <ImageButton
+        android:id="@+id/btnVolverC"
+        android:layout_width="76dp"
+        android:layout_height="49dp"
+        android:background="#1B1B1B"
+        android:contentDescription="volver"
+        app:srcCompat="@android:drawable/ic_menu_revert" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/days_one"
+        android:text="PLAN C"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/days_one"
+        android:gravity="center"
+        android:text="( PRINCIPIANTE )"
+        android:textColor="#FFFFFF" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:layout_marginTop="45dp"
+        android:background="#FF9800"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="Calentamiento: 5-10 minutos de cardio ligero (caminar en el lugar, saltar la cuerda)."
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="Ejercicios principales: 6-8 ejercicios que trabajen diferentes grupos musculares."
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView37"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="Descanso: Descansa de 30 a 60 segundos entre cada set."
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView39"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="Sentadillas con banda de resistencia - 3 sets x 12 repeticiones"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView40"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="Flexiones con banda de resistencia - 3 sets x 10 repeticiones"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView42"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="Remo con banda de resistencia - 3 sets x 12 repeticiones"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView43"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="Prensa de hombros con banda de resistencia - 3 sets x 12 repeticiones"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView44"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="Patada de burro con banda de resistencia - 3 sets x 12 repeticiones (cada pierna)"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView45"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="Curl de bíceps con banda de resistencia - 3 sets x 12 repeticiones"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView46"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="Extensión de tríceps con banda de resistencia - 3 sets x 12 repeticiones"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="135dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="70dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="75dp"
+            android:backgroundTint="#1B1B1B1B"
+            android:contentDescription="interrogant"
+            app:srcCompat="@drawable/icons8_question_64" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1B1B1B"
+    android:orientation="vertical"
+    tools:context=".InvitarAmigo">
+
+    <ImageButton
+        android:id="@+id/btnVolverInvitar"
+        android:layout_width="77dp"
+        android:layout_height="77dp"
+        android:backgroundTint="#1E1E1E"
+        android:contentDescription="Volver"
+        app:srcCompat="@android:drawable/ic_menu_revert" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/days_one"
+        android:text="INVITAR A UN AMIGO"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/txtCorreoAmigo"
+        android:layout_width="279dp"
+        android:layout_height="84dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:ems="10"
+        android:hint="Introduce el correo electrónico"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnEnviarInvitacion"
+        android:layout_width="264dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="#FF9800"
+        android:text="ENVIAR INVITACIÓN"
+        android:textColor="#000000" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="200dp"
+        android:background="#FF9800"
+        android:orientation="horizontal"></LinearLayout>
+
+</LinearLayout>

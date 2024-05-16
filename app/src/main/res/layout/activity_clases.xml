@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1B1B1B"
+    android:orientation="vertical"
+    tools:context=".Actividades">
+
+    <ImageButton
+        android:id="@+id/IMGBtnVolverClases"
+        android:layout_width="77dp"
+        android:layout_height="77dp"
+        android:backgroundTint="#1B1B1B"
+        android:contentDescription="Volver"
+        app:srcCompat="@android:drawable/ic_menu_revert" />
+
+    <TextView
+        android:id="@+id/textView61"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/days_one"
+        android:gravity="center"
+        android:text="ACTIVIDADES"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="350dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        app:srcCompat="@drawable/image" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="350dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/image2" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="350dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/image3" />
+
+    <Button
+        android:id="@+id/btnApuntarClase"
+        android:layout_width="262dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#FF9800"
+        android:text="APUNTARME A UNA CLASE"
+        android:textColor="#000000" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:background="#FF9800"
+        android:orientation="horizontal"></LinearLayout>
+</LinearLayout>

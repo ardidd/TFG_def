@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1B1B1B"
+    android:orientation="vertical"
+    tools:context=".AltaEnCalorias">
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/days_one"
+        android:gravity="center"
+        android:text="¿POR QUÉ HACER DIETA?"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="307dp"
+        android:layout_margin="20dp"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="270dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:background="#FF9800"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="BENEFICIOS"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:text="1. Aumento de la masa muscular: Consumir más calorías de las que se queman proporciona el excedente necesario para el crecimiento muscular, esencial para aquellos que desean ganar tamaño y fuerza."
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:text="2. Mejora del rendimiento: Una mayor ingesta calórica puede proporcionar más energía para el entrenamiento. Esto puede llevar a mejores resultados en términos de rendimiento en general."
+                android:textColor="#000000"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="250dp"
+                android:layout_height="46dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:text="3. Apoyo a la recuperación: Una dieta rica en calorías puede ayudar a acelerar la recuperación muscular después del ejercicio. "
+                android:textColor="#000000"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="250dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:text="4. Promoción de la salud general: Consumir una cantidad adecuada de calorías y nutrientes es esencial para mantener la salud en general. "
+                android:textColor="#000000"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="75dp"
+            android:src="@drawable/icons8_male_user_50" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:layout_marginTop="75dp"
+            android:layout_marginRight="40dp"
+            android:layout_weight="1"
+            android:src="@drawable/icons8_male_user_50" />
+
+        <LinearLayout
+            android:layout_width="270dp"
+            android:layout_height="290dp"
+            android:layout_weight="1"
+            android:background="#FF9800"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_weight="1"
+                android:text="RECOMENDACIONES"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:text="1. Calcula tus necesidades calóricas: Determina tu requerimiento calórico diario basándote en factores como tu edad, peso, altura, nivel de actividad y metas de fitness."
+                android:textColor="#000000"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:text="2. Distribuye tus comidas: Consume comidas frecuentes a lo largo del día para mantener un suministro constante. Incluye proteínas y carbohidratos  en cada comida para maximizar el rendimiento y la recuperación. "
+                android:textColor="#000000"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="6dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:text="3. Hidratación adecuada: Bebe suficiente agua para mantener la hidratación durante todo el día."
+                android:textColor="#000000"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:text="4. Suplementación opcional: Considera el uso de suplementos para aumentar tu ingesta calórica y apoyar tus objetivos de entrenamiento. "
+                android:textColor="#000000"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

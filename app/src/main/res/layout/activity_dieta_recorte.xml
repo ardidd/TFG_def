@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1B1B1B"
+    android:orientation="vertical"
+    tools:context=".DietaRecorte">
+
+    <ImageButton
+        android:id="@+id/btnVolverDieta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#1B1B1B"
+        android:contentDescription="volver"
+        android:src="@android:drawable/ic_menu_revert" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="25dp"
+            app:srcCompat="@drawable/icons8_healthy_eating_50" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="0dp"
+            android:fontFamily="@font/days_one"
+            android:gravity="center"
+            android:text="ALIMENTACIÓN"
+            android:textColor="#FFFFFF"
+            android:textSize="34sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/montserrat_semibold"
+        android:gravity="center"
+        android:text="Beneficios y Recomendaciones"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="165dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/btnMasInformacionAlta"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#FF9800"
+        android:text="MÁS INFORMACIÓN"
+        android:textColor="#000000"
+        android:textColorLink="#FF9800" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="45dp"
+        android:fontFamily="@font/montserrat_semibold"
+        android:gravity="center"
+        android:text="Alimentos"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="165dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/btnMasInformacionBaja"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#FF9800"
+        android:text="MÁS INFORMACIÓN"
+        android:textColor="#000000" />
+</LinearLayout>
